@@ -25,4 +25,16 @@ public class Circle implements Shape
     {
         return this.x * this.x *  radius ;
     }
+    public boolean equals(Object obj)
+    {
+        Circle c =(Circle)obj;
+        if(x==c.x && y==c.y)
+        {
+            return true;
+        }
+        else 
+        {
+            return false;
+        }
+    }
 }
