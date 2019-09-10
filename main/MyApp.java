@@ -1,5 +1,5 @@
 package main;
-
+import base.Circle;
 
 /**
  * 여기에 MyApp 클래스 설명을 작성하십시오.
@@ -12,10 +12,10 @@ public class MyApp
     public static void main(String[] args)
     {
         Circle c1 = new Circle(2,3,5);
-        Circle c2 = new Circle(2,3,10);
+        Circle c2 = new Circle(2,4,10);
         System.out.println("원1 : " + c1);
         System.out.println("원2 : " + c2);
-        if()
+        if(c1.equals(c2))
         {
             System.out.println("같은 원");
         }
