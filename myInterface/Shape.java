@@ -2,10 +2,10 @@ package myInterface;
 
 
 /**
- * Write a description of interface Shape here.
+ *interface Shape 
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (2018315059 이와사키 메구미)
+ * @version (2019.09.11)
  */
 public interface Shape
 {
