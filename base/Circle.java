@@ -2,10 +2,10 @@ package base;
 import myInterface.Shape;
 
 /**
- * Circle 클래스
+ * 원의 반지름과 두개의 원의 중심이 같은지 구별해주는 클래스
  * 
- * @author (2018315059 이와사키 메구미) 
- * @version (2019.09.11)
+ * @author (2018315059 이와사키 메구미, 2018315003 최세원, 2017315056 이토 아야카) 
+ * @version (2019.09.10)
  */
 public class Circle implements Shape
 {
@@ -28,7 +28,7 @@ public class Circle implements Shape
     public boolean equals(Object obj)
     {
         Circle c =(Circle)obj;
-        if(x==c.x && y==c.y)
+        if(this.x==c.x && this.y==c.y)
         {
             return true;
         }

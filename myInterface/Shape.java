@@ -2,10 +2,10 @@ package myInterface;
 
 
 /**
- *interface Shape 
+ *추상클래스가 들어있는 인터페이스
  *
- * @author (2018315059 이와사키 메구미)
- * @version (2019.09.11)
+ * @author (2018315059 이와사키 메구미, 2018315003 최세원, 2017315056 이토 아야카)
+ * @version (2019.09.10)
  */
 public interface Shape
 {
